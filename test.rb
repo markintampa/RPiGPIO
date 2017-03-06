@@ -31,7 +31,7 @@ end
 def keyboard_loop
   loop do
     system("clear")
-    puts "Press g/y/r or q to quitq"
+    puts "Press g/y/r or q to quit"
     case STDIN.getch
     when "g"
       toggle(PINS[0])
