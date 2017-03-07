@@ -1,12 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    eventmachine (1.0.9)
+    ffi (1.9.18)
+    pi_piper (2.0.0)
+      eventmachine (= 1.0.9)
+      ffi
     rpi_gpio (0.3.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
+  pi_piper
   rpi_gpio
 
 BUNDLED WITH
